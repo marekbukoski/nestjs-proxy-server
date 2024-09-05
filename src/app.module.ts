@@ -4,8 +4,8 @@ import { AppService } from './app.service';
 import { ProxyModule } from './proxy/proxy.module';
 
 @Module({
-    imports: [ProxyModule],
-    controllers: [AppController],
-    providers: [AppService],
+  imports: [ProxyModule],
+  controllers: [AppController],
+  providers: [AppService],
 })
-export class AppModule { }
+export class AppModule {}
